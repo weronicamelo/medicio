@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medicio</title>
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Boostrap CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- CSS Main -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock"></i>
+          Segunda a Sexta, das 8h às 17h
+        </div>
+
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone"></i>
+          Ligue agora: (11) 98765 - 4321
+        </div>
+      </div> <!-- fim container -->
+    </div> <!-- fim topbar -->
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="">
+        </a>
+
+        <!-- Menu -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li> <a href="#hero" class="active"> Home </a> </li>
+            <li> <a href="#sobre"> Sobre </a> </li>
+            <li> <a href="#services"> Serviços </a> </li>
+            <li> <a href="#departamentos"> Departamentos </a> </li>
+            <li> <a href="#medicos"> Médicos </a> </li>
+            <li> <a href="#contato"> Contato </a> </li>
+            <li class="dropdown">
+              <a href="#">
+                <span> Mais Opções </span>
+                <i class="bi bi-chevron-down"> </i>
+              </a>
+              <ul>
+                <li> <a href="#"> Opção 1 </a> </li>
+                <li> <a href="#"> Opção 2 </a> </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span> Submenu </span>
+                    <i class="bi bi-chevron-down"> </i>
+                  </a>
+                  <ul>
+                    <li> <a href="#"> Submenu 1 </a> </li>
+                    <li> <a href="#"> Submenu 2 </a> </li>
+                  </ul>
+                </li> <!-- fim Submenu -->
+              </ul>
+            </li> <!-- Fim Mais Opções -->
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"> </i>
+        </nav>
+        <a href="index.html#consulta" class="cta-btn">
+          Agende uma Consulta
+        </a>
+      </div> <!-- fim container -->
+    </div> <!-- fim branding -->
+  </header>
+  <!-- fim header -->
+  <main class="main">
+
+    <!-- HERO section -->
+    <section id="hero" class="hero section">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <!-- foto 1 / slide 1 -->
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <div class="container">
+            <h2> Bem-vindo à "Sua Marca" </h2>
+            <p>
+              Na Clínica Vida Plena, cuidamos da sua saúde com carinho e dedicação. 
+              Nossa equipe de profissionais está preparada para oferecer o melhor atendimento, com foco no bem-estar e na qualidade de vida de nossos pacientes.
+            </p>
+          </div>
+        </div> <!-- Fim / foto 1 =  slide 1 -->
+
+        <!-- foto 2 / slide 2 -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <div class="container">
+            <h2> Cuidado e Atenção para Você </h2>
+            <p>
+              Estamos sempre prontos para atender você e sua família com excelência e humanidade. Oferecemos uma ampla gama de serviços médicos para
+              garantir que você tenha acesso ao melhor tratamento possível
+            </p>
+          </div>
+        </div> <!-- Fim / foto 2 =  slide 2 -->
+        <!-- foto 3 / slide 3 -->
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <div class="container">
+            <h2> Excelência em Saúde </h2>
+            <p>
+              Nossa missão é promover saúde e bem-estar com um atendimento personalizado e de alta qualidade. Confie em nossos especialistas para
+              cuidar de você em todas as fases da vida.
+            </p>
+          </div>
+        </div> <!-- Fim / foto 3 =  slide 3 -->
+        <!-- Control Prev -->
+        <a href="#hero-carousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          <i class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"> </i>
+        </a>
+        <!-- Control Next -->
+        <a href="#hero-carousel" class="carousel-control-next" role="button" data-bs-slide="next">
+          <i class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"> </i>
+        </a>
+
+        <ol class="carousel-indicators"> </ol>
+
+      </div> <!-- hero-carousel -->
+    </section>
+
+    <!-- Serviços -->
+    <section id="featured-services" class="featured-services section">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Item 1 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-heartbeat icon"></i>
+                </div>
+                <h4>
+                  <a href="./pages/cardio.html" class="stretched-link">Cardiologia</a>
+                </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum sed dolore laboriosam est vero nam maiores necessitatibus
+                   impeditminus repellendus, sunt voluptatem voluptatibus nisi repellat saepe eligendi reprehenderit asperiores tempora.</p>
+                </div>
+          </div> <!-- Fim Item 1 -->
+
+          <!-- Item 2 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-pills icon"></i>
+                </div>
+                <h4>
+                  <a href="./pages/famacia.html" class="stretched-link">Farmacia</a>
+                </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum sed dolore laboriosam est vero nam maiores necessitatibus
+                   impeditminus repellendus, sunt voluptatem voluptatibus nisi repellat saepe eligendi reprehenderit asperiores tempora.</p>
+                </div>
+          </div> <!-- Fim Item 2 -->
+
+          <!-- Item 3 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-thermometer icon"></i>
+                </div>
+                <h4>
+                  <a href="./pages/clinica.html" class="stretched-link">Clínica Geral</a>
+                </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum sed dolore laboriosam est vero nam maiores necessitatibus
+                   impeditminus repellendus, sunt voluptatem voluptatibus nisi repellat saepe eligendi reprehenderit asperiores tempora.</p>
+                </div>
+          </div> <!-- Fim Item 3 -->
+
+          <!-- Item 4 -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-dna icon"></i>
+                </div>
+                <h4>
+                  <a href="./pages/genetica.html" class="stretched-link">Genética</a>
+                </h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum sed dolore laboriosam est vero nam maiores necessitatibus
+                   impeditminus repellendus, sunt voluptatem voluptatibus nisi repellat saepe eligendi reprehenderit asperiores tempora.</p>
+                </div>
+          </div> <!-- Fim Item 4 -->
+        </div> <!-- Fim row gy-4 -->
+      </div> <!-- Fim container -->
+    </section> <!-- Fim serviços = Featured -->
+
+    <!-- Emergencia -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+            <h3>Emergência? <br> Precisa de ajuda agora?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perferendis fuga fugit dolore optio minima itaque aut? 
+              Facilis maiores molestiae veritatis, quaerat odit autem quidem commodi, debitis voluptatem nam maxime.</p>
+              <a class="cta-btn" href="#consulta">Agende uma consulta</a>
+          </div>
+          </div> <!-- Coluna 10 -->
+        </div> <!-- Fim row -->
+      </div> <!-- Fim container -->
+    </section> <!-- Fim Emergencia -->
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, hic rem in provident fugiat totam exercitationem soluta a, 
+          voluptatem blanditiis sint ducimus eum quae eos cum illo, minus laudantium perferendis!</p>
+      </div> 
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos delay="100">
+            <img src="assets/img/about.jpg" alt="" class="img-fluid">
+            <a href="https://www.youtube.com/watch?v=V1Pl8CzNzCw&list=RDCLAK5uy_kEeMXVnyMll_xhEBH1Aza4lEYO58yeQ0M&index=2" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sed perferendis minus doloribus neque laborum! 
+            Minima, quis voluptatem ex sapiente voluptate atque eos aperiam, provident quibusdam saepe quod, et velit.</h3>
+
+            <p class="fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quas aut accusamus atque. Expedita cupiditate harum voluptate dolore 
+              commodi vero exercitationem dicta ab, perferendis ad! Ab provident quis ipsum distinctio?</p>
+              
+              <ul>
+                <li>
+                  <i class="bi bi-check2-all"></i>
+                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, atque dicta saepe aliquid consequatur sunt non susc.</span>
+                </li>
+                <li>
+                  <i class="bi bi-check2-all"></i>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, maxime debitis voluptatem similique intetur molesti.</span>
+                </li>
+                <li>
+                 <i class="bi bi-check2-all"></i>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, maxime debitis voluptatem similique intetur molesti.</span>
+                </li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui hic animi cum ab fugiat eligendi similique possimus iste voluptates quo,
+                 quasi cupiditate iure autem non neque doloribus nostrum ipsam?</p>
+          </div> <!-- Fim content -->
+        </div>
+      </div> <!-- Fim container -->
+    </section> <!-- Fim sobre -->
+
+    <!-- Status Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <!-- Status 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-user-md flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="100" class="purecounter"></span>
+                <p>Médicos</p>
+              </div>
+            </div>
+          </div> <!-- Fim status 1 -->
+
+          <!-- Status 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-flask flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="100" class="purecounter"></span>
+                <p>Laboratórios de Pesquisa</p>
+              </div>
+            </div>
+          </div> <!-- Fim status 2 -->
+
+          <!-- Status 3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-hospital flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="100" class="purecounter"></span>
+                <p>Departamentos</p>
+              </div>
+            </div>
+          </div> <!-- Fim status 3 -->
+
+          <!-- Status 4 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="fas fa-award flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="100" class="purecounter"></span>
+                <p>Prêmios</p>
+              </div>
+            </div>
+          </div> <!-- Fim status 4 -->
+        </div> <!-- Fim row -->
+      </div> <!-- Fim container -->
+    </section> 
+
+     <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="row justify-content-around gy-4">
+        <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/features.jpg" alt="">
+        </div>
+        <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <h3>Excelência e cuidado em todos os aspectos da sua saúde</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt inventore placeat, totam minima laboriosam 
+            exercitationem repellat, excepturi quae iste officiis maxime dolor quos laudantium quam provident, harum atque molestias!</p>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">Atendimendo personalizado</a>
+                </h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam aspernatur alias esse consequatur
+                     libero officia. Dolores sunt velit deserunt, nemo molestiae ipsum cum vel assumenda iusto. Laboriosam, consequuntur ratione.</p>
+              </div>
+            </div> <!-- Fim icon box 1 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">Equipamentos modernos</a>
+                </h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam aspernatur alias esse consequatur
+                     libero officia. Dolores sunt velit deserunt, nemo molestiae ipsum cum vel assumenda iusto. Laboriosam, consequuntur ratione.</p>
+              </div>
+            </div> <!-- Fim icon box 2 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">Profissionais personalizados</a>
+                </h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam aspernatur alias esse consequatur
+                     libero officia. Dolores sunt velit deserunt, nemo molestiae ipsum cum vel assumenda iusto. Laboriosam, consequuntur ratione.</p>
+              </div>
+            </div> <!-- Fim icon box 3 -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-lungs flex-shrink-0"></i>
+              <div>
+                <h4>
+                  <a href="" class="stretched-link">Cuidados multidisciplinares</a>
+                </h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam aspernatur alias esse consequatur
+                     libero officia. Dolores sunt velit deserunt, nemo molestiae ipsum cum vel assumenda iusto. Laboriosam, consequuntur ratione.</p>
+              </div>
+            </div> <!-- Fim icon box 4 -->
+        </div> 
+      </div> <!-- Fim content around -->
+    </section> <!-- Fim características -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+    </section> <!-- Fim serviços -->
+
+    <!-- Consulta Section -->
+    <section id="consulta" class="consulta section light-background">
+    </section> <!-- Fim consulta -->
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs section">
+    </section> <!-- Fim tabs -->
+
+    <!-- Médicos Section -->
+    <section id="medicos" class="medicos section light-background">
+    </section>
+
+    <!-- Planos / Preços Section -->
+    <section id="pricing" class="pricing section">
+    </section>
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section light-background">
+    </section> <!-- Fim FAQ -->
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato section">
+    </section> <!-- Fim contato -->
+
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+  </footer>
+
+  <!-- Botao voltar ao TOPO -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+   <!-- Boostrap JS Files -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"> </script>
+
+</body>
+</html>
