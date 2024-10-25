@@ -653,7 +653,7 @@ section, .section {
 }
 
 .scroll-top:hover {
-  background: red;
+  background: rgb(236, 232, 232);
 }
 
 .scroll-top:hover i {
@@ -877,6 +877,28 @@ section, .section {
   text-align: center;
 }
 
+.doctors .team-member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+.doctors .team-member:hover .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.doctors .team-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px; 
+}
+
+.doctors .team-member .member-info span {
+  display: block;
+  font-size:  15px;
+  font-weight: 600px;
+}
+
 .medicos .team-member .social a {
   background: whitesmoke;
   color: black;
@@ -970,6 +992,38 @@ section, .section {
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
   color: var(--accent-color);
+}
+
+.contato .info-item {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.3);
+  padding: 24px 0 30px 0;
+}
+
+.contato .info-item i {
+  color: var(--accent-color);
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px dotted #0d8084;
+}
+
+.contato .info-item h3 {
+  font-size: 20px;
+  color: #383838;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contato .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 /* Responsividade */
